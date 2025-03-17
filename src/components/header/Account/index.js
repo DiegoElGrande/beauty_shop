@@ -1,5 +1,5 @@
 import './account.scss'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createPortal } from 'react'
 
 export default function Account({ closeButton }) {
     const [userName, setUserName] = useState('')
