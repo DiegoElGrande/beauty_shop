@@ -43,7 +43,7 @@ export default function Footer() {
             </div>
             <hr />
             <div className="license">
-                <p>© 2023 Bloom Beauty.</p>
+                <p>© 2024 Bloom Beauty.</p>
                 <div className="detail">
                     <p>Privacy Policy</p>
                     <p>Terms & Conditions</p>
