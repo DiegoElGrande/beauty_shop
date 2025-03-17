@@ -1,4 +1,4 @@
-import './header.scss'
+import './header.modules.scss'
 import Account from './Account'
 import { useState } from 'react'
 
@@ -14,11 +14,11 @@ export default function Header() {
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Shop all</a></li>
-                        <li><a href="#">Bestsellers</a></li>
-                        <li><a href="#">Collection</a></li>
-                        <li><a href="#">about as</a></li>
-                        <li><a href="#">blog</a></li>
+                        <li><button className='link'>Shop all</button></li>
+                        <li><button className='link'>Bestsellers</button></li>
+                        <li><button className='link'>Collection</button></li>
+                        <li><button className='link'>about as</button></li>
+                        <li><button className='link'>blog</button></li>
                     </ul>
                 </nav>
                 <ul className='top_bar_menu'>

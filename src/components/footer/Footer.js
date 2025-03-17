@@ -1,4 +1,4 @@
-import './footer.scss'
+import './footer.modules.scss'
 
 export default function Footer() {
     const linkList = ['instagram', 'facebook', 'twitter', 'pinterest', 'telegram']
@@ -12,32 +12,32 @@ export default function Footer() {
                     <div className="contact">
                         <h2>Bloom Beauty</h2>
                         <span>Discover nature's beauty with our natural care products.</span>
-                        <a href="#">+7 999 123 45 67</a>
-                        <a href="#">beautybloom@mail.ru</a>
-                        <a href="#">Planet Earth</a>
+                        <button className='link'>+7 999 123 45 67</button>
+                        <button className='link'>beautybloom@mail.ru</button>
+                        <button className='link'>Planet Earth</button>
                     </div>
                     <div className="help">
                         <p>Help</p>
-                        <a href="#">Contact us</a>
-                        <a href="#">FAQ</a>
-                        <a href="#">Shoppping returns</a>
+                        <button className='link'>Contact us</button>
+                        <button className='link'>FAQ</button>
+                        <button className='link'>Shoppping returns</button>
                     </div>
                     <div className="account">
                         <p>my account</p>
-                        <a href="#">Addresses</a>
-                        <a href="#">Orders status</a>
-                        <a href="#">Wishlist</a>
+                        <button className='link'>Addresses</button>
+                        <button className='link'>Orders status</button>
+                        <button className='link'>Wishlist</button>
                     </div>
                     <div className="custom_care">
                         <p>Custom care</p>
-                        <a href="#">About us</a>
-                        <a href="#">Blog</a>
+                        <button className='link'>About us</button>
+                        <button className='link'>Blog</button>
                     </div>
                     <div className="sign_up">
                         <p>sign up for emails</p>
                         <span>Stay informed, subscribe to our newsletter now!</span>
                         <input type="text" placeholder='Email' />
-                        <a href="#">Subscribe</a>
+                        <button className='link'>Subscribe</button>
                     </div>
                 </div>
             </div>

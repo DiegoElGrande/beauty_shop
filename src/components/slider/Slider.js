@@ -7,7 +7,7 @@ export default function Slider({title, content}) {
         <div className="slider container">
             <div className="title">
                 <h2>{title}</h2>
-                <a href="#">See All</a>
+                <button className='link'>See All</button>
             </div>
             <button className="slider_btn left">&#10094;</button>
             <div className="slider_items">

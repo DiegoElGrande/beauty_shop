@@ -5,7 +5,7 @@ export default function Blog() {
         <div className="blog container">
             <div className="title">
                 <h2>on the blog</h2>
-                <a href="#">See All</a>
+                <button className='link'>See All</button>
             </div>
             <div className="blog_card">
                 <BlogCard/>

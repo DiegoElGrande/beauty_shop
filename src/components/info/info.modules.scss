@@ -43,8 +43,11 @@
         display: flex;
         flex-direction: row;
         gap: 2rem;
-        a {
-            text-decoration: none;
+        .explore {
+            text-decoration: underline;
+            background-color: transparent;
+            color:#616161ce;
+            width: auto;
             &::after{
                 content: url(/image/icons/arrow_right.svg);
                 padding: 0.5rem;

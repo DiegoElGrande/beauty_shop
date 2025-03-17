@@ -1,5 +1,9 @@
 footer {
     background-color: #252525;
+    .link {
+        display: inline-block;
+        text-align: left;
+    }
 }
 .container {
     display: flex;

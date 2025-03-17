@@ -1,4 +1,4 @@
-import './info.scss'
+import './info.modules.scss'
 export default function Info() {
     return (
         <div className="info container">
@@ -15,7 +15,7 @@ export default function Info() {
                     </ul>
                     <div className="navigation">
                         <button className="shop_now">Shop Now</button>
-                        <a className="explore" href="#">Explore More</a>
+                        <button className="explore">Explore More</button>
                     </div>
                 </div>
                 <img src="/image/post_image.jpg" alt="post_img" />
@@ -33,7 +33,7 @@ export default function Info() {
                     </ul>
                     <div className="navigation">
                         <button className="shop_now">Shop Now</button>
-                        <a className="explore" href="#">Explore More</a>
+                        <button className="explore">Explore More</button>
                     </div>
                 </div>
                 <img src="/image/post_image2.jpg" alt="post_img" />
