@@ -45,7 +45,11 @@
         }
         p{
             color: #697586;
-            a{
+            button{
+                display: inline-block;
+                background-color: transparent;
+                color: gray;
+                width: auto;
                 cursor: pointer;
                 text-decoration: underline;
                 text-transform: none;
