@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/beauty_shop/static/css/main.eb847a1a.css",
+    "main.js": "/beauty_shop/static/js/main.17c6b6f9.js",
+    "static/media/first-screen.jpg": "/beauty_shop/static/media/first-screen.d2659ff1d741d355d239.jpg",
+    "static/media/flower_left.svg": "/beauty_shop/static/media/flower_left.34fba17d66923b2612ad.svg",
+    "static/media/flower_right.svg": "/beauty_shop/static/media/flower_right.ec7e72fddaec37071954.svg",
+    "index.html": "/beauty_shop/index.html",
+    "static/media/arrow_right.svg": "/beauty_shop/static/media/arrow_right.18a30cfc32e8cee576ea.svg",
+    "main.eb847a1a.css.map": "/beauty_shop/static/css/main.eb847a1a.css.map",
+    "main.17c6b6f9.js.map": "/beauty_shop/static/js/main.17c6b6f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eb847a1a.css",
+    "static/js/main.17c6b6f9.js"
+  ]
+}
