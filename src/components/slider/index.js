@@ -1,5 +1,5 @@
 import './slider.scss'
-import Card from '../card/Card'
+import Card from '../Card'
 
 export default function Slider({title, content}) {
     

@@ -1,8 +1,8 @@
-import FirstScreen from '../firstScreen/FirstScreen'
-import Slider from '../slider/Slider'
-import Info from '../info/Info'
+import FirstScreen from '../FirstScreen'
+import Slider from '../Slider'
+import Info from '../Info'
 import Blog from '../Blog'
-import Community from '../community/Community'
+import Community from '../Community'
 import './main.scss'
 import arrivals from './arrivals.json'
 

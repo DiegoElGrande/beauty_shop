@@ -1,5 +1,5 @@
 import './blog.scss'
-import BlogCard from './blogCard'
+import BlogCard from './BlogCard'
 export default function Blog() {
     return (
         <div className="blog container">
